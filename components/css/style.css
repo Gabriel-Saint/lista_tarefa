@@ -1,0 +1,43 @@
+.completed {
+    text-decoration: line-through;
+    background-color: rgba(24, 94, 24, 0.767);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 100vh;
+}
+
+input{
+    padding: 10px;
+    width: 200px;
+    border-radius: 6px;
+    background-color: blanchedalmond;
+    outline: none;
+}
+
+.b1{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+ul{
+    background-color: aquamarine;
+    border-radius: 6px;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.apagar{
+    position: relative;
+  
+}
+img{
+    height: 30px;
+    width: 30px;
+}
